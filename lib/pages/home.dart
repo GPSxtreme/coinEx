@@ -27,7 +27,7 @@ class _homeState extends State<home> {
  }
   @override
   Widget build(BuildContext context) {
-   timeDilation = 1.5;
+   timeDilation = 1.1;
     data = data.isNotEmpty? data: ModalRoute.of(context)?.settings.arguments as Map;
     return Scaffold(
       backgroundColor: HexColor("06283D"),
