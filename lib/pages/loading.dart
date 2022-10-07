@@ -29,14 +29,14 @@ class _loadingState extends State<loading> {
     }
     else{
       Future.delayed(const Duration(seconds: 2),() async {
-        setupCoinDetails(1);
+        setupCoinDetails(0);
       });
     }
   }
   @override
   void initState(){
     super.initState();
-    setupCoinDetails(1);
+    setupCoinDetails(3);
   }
   @override
   Widget build(BuildContext context) {
